@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Tampere Region Growth Monitor 2.0 BETA</title>
+    <title>Tampere Region Growth Monitor 2.0 (Beta)</title>
   </head>
 
   <body>
@@ -24,7 +24,7 @@
       <nav class="navbar navbar-expand-md navbar-dark gm-header">
         <!-- Brand -->
         <a class="navbar-brand" href="#" style="color: white"
-          >Tampere Region Growth Monitor BETA</a
+          >Tampere Region Growth Monitor 2.0 (Beta)</a
         >
 
         <!-- Toggler/collapsibe Button -->
@@ -41,19 +41,22 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Companies</a>
+              <a class="nav-link" href="#">Front page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Startup-companies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Growth seeking companies</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Funding</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ecosystems</a>
+              <a class="nav-link" href="#">Startup programs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Incubators</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accelerators</a>
+              <a class="nav-link" href="#">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -72,13 +75,19 @@
           <!-- /.col-lg-4 -->
           <div class="col gm-desc">
             <br />
-            <h1>Startup-companies and other growth oriented companies</h1>
+            <h1>Tampere Region Growth Monitor 2.0 (Beta)</h1>
             <p style="color: lightgrey">
-              This page visualizes data about companies identified to be aimed
-              at growth or internationalization in Tampere region
+              The Tampere Region Growth Monitor is a database and a website 
+		created to give a timely snapshot about the growth oriented companies 
+		located in the Tampere region. The tool is developed as a
+		 part of 6Aika: Ecosystems of Growth-project. The tool is at the moment at 
+		its beta stage and will be completed during the year 2020.
             </p>
-            <p style="color: lightgrey">Picture: Opa Latvala, Visittampere</p>
-            <select class="form-control form-control-lg">
+            <p style="color: lightgrey">Photograph: Rami Marjamäki</p>
+
+	    <!-- Kommentoidaan nää kuntavalinnat pois, koska niitä ei tarvita-->
+
+            <!--<select class="form-control form-control-lg">
               <option value="" selected disabled>Select municipalities</option>
               <option>Akaa</option>
               <option>Hämeenkyrö</option>
@@ -102,7 +111,8 @@
               <option>Vesilahti</option>
               <option>Virrat</option>
               <option>Ylöjärvi</option>
-            </select>
+            </select>-->
+
           </div>
           <!-- /.col-lg-4 -->
         </div>
@@ -130,10 +140,12 @@
 
         <hr class="featurette-divider" />
 
-        <div class="row featurette">
-          <div class="col-md-4">
+	<!--Kommentoidaan tää eka featurette piiloon, koska en oo varma tarviiko sitä-->
+
+        <!--<div class="row featurette">
+          <div class="col-md-2">
             <h2 class="featurette-heading">
-              Oh yeah, it’s that good.
+              Oh yeah, it’s that good. Testi
               <span class="text-muted">See for yourself.</span>
             </h2>
             <p class="lead">
@@ -142,11 +154,14 @@
               vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
               commodo.
             </p>
-          </div>
-          <div class="col-md-8">
+          </div>-->
+
+	  <!-- Alla PowerBI-raportin upotus-->
+
+          <div class="col-md-12">
             <iframe
               width="100%"
-              height="804"
+              height="1060"
               src="https://app.powerbi.com/view?r=eyJrIjoiOTA1MDAwOTUtNzY1My00NDM0LWI1NTctMDU3YmYwY2YwZjAwIiwidCI6IjM4Y2Y5ZDUxLThkZWUtNDQ2ZS1hNGNhLTY1Mjg2MDY5NTFkYyIsImMiOjl9"
               frameborder="0"
               allowfullscreen="true"
@@ -159,7 +174,9 @@
         <!--<hr class="featurette-divider" />-->
 
         <!-- /END THE FEATURETTES -->
+
       </div>
+
       <!-- /.container -->
 
       <!-- FOOTER -->
@@ -168,7 +185,7 @@
           <div class="col"></div>
           <div class="col footer-content">
             <span>© Council of Tampere region 2020</span>
-            <h3>Contact</h3>
+            <h3>Contact:</h3>
             <div>
               <span>Lari Jaakkola</span><br />
               <a href="mailto:lari.jaakkola@pirkanmaa.fi"
